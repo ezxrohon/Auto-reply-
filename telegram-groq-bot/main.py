@@ -31,7 +31,7 @@ API_ID = int(os.getenv("TG_API_ID", "309"))
 API_HASH = required_env("TG_API_HASH")
 TELEGRAM_SESSION = required_env("TELEGRAM_SESSION")
 GROQ_API_KEY = required_env("GROQ_API_KEY")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 SYSTEM_PROMPT = os.getenv(
     "GROQ_SYSTEM_PROMPT",
